@@ -1,0 +1,114 @@
+"recipeName": "Easy Orange Chicken",
+"recipeDesc": "spicy dinner",
+"instructions": "Fry chicken breast for 2 minutes. Whisk orange juice with soy sauce, coconut oil, garlic and caesar salad dressing. Pour sauce on to the fried chicken breast. Cook about 3-5 minutes and serve with cheese ",
+
+"ingredients": [
+{
+"ingredientName": "chicken breast",  
+"measure": "whole",
+"qty": "4"
+},
+{
+"ingredientName": “coconut oil”,
+"measure": "cups",
+"qty": "3"
+},
+{
+"ingredientName": “orange juice”,
+"measure": "cups",
+"qty": "2"
+},
+{
+"ingredientName": “salt”,
+"measure": "teaspoon",
+"qty": "2"
+},
+{
+"ingredientName": “Soy sauce”,
+"measure": "teaspoon",
+"qty": "2"
+},
+{
+"ingredientName": “Caesar salad dressing”,
+"measure": "cups",
+"qty": "1"
+},
+{
+"ingredientName": “garlic”,
+"measure": "whole",
+"qty": "2"
+},
+
+
+
+]
+
+
+
+
+[
+{
+"recipeName": "Rice",
+"recipeDesc": "starchy side",
+"instructions": "Wash rice in cold water. Add water, coconut oil and salt. Boil until all the grain are soft and moisture is gone ",
+"ingredients": [
+{
+"ingredientName": "rice",
+"measure": "cups",
+"qty": "2"
+},
+{
+"ingredientName": "coconut oil",
+"measure": "tablespoon",
+"qty": "2"
+},
+{
+"ingredientName": "salt",
+"measure": "teaspoon",
+"qty": "1 1/2"
+},
+,
+]
+},
+{
+"recipeName": "Overnight Oatmeal",
+"recipeDesc": "Healthy breakfast",
+"instructions": " Put oats, almond milk, yougurt in a mason. Seal jar and place in the refrigerator for 24hrs. Optional: add strawberries and chia seeds.",
+"ingredients": [
+{
+"ingredientName": "Oats",
+"measure": "cups",
+"qty": "2"
+},
+{
+"ingredientName": "Almond Milk",
+"measure": "cup",
+"qty": "1"
+},
+{
+"ingredientName": "Yougurt",
+"measure": "teaspoon",
+"qty": "2"
+},
+{
+"ingredientName": "strawberries",
+"measure": "cup",
+"qty": "1/4"
+}{
+"ingredientName": "chia seeds",
+"measure": "teaspoon",
+"qty": "1"
+}
+]
+
+/* find all recipes//
+
+const cursor = db.collection('inventory').find({recipe});
+
+/* find recipes that include mill//
+
+const cursor = db.collection('inventory').find({ status: 'milk' });
+
+/* update recipe//
+
+db.collection.update()
